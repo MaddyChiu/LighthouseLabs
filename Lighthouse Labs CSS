@@ -1,0 +1,323 @@
+/* Base Style */
+#main-title {
+  color: #ff298d;
+  background: #fdfce9;
+  border-radius: 20px;
+  padding: 30px;
+  font-family: "Mali", cursive;
+  margin: 30px;
+  font-weight: 700;
+}
+
+#intro {
+  color: #ff298d;
+  font-family: "Mali", cursive;
+  font-weight: 500;
+}
+
+#about {
+  color: 004e64;
+}
+
+.about-content {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+.content-title {
+  margin-top: 40px;
+}
+
+#body-content {
+  color: #ff298d;
+  background: #fdfce9;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-bar {
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: no-wrap;
+  align-content: flex-start;
+}
+
+.title-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  font-family: "Montserrat", sans-serif;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: no-wrap;
+  align-content: flex-start;
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #ff298d;
+}
+
+#foot-2 {
+  order: 3;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+}
+
+#meter-1 {
+  margin: 10px;
+  width: 200px;
+}
+
+#meter-2 {
+  margin: 10px;
+  width: 200px;
+}
+
+#date-1 {
+  margin: 10px;
+}
+
+#date-2 {
+  margin: 10px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #25a18e;
+}
+
+#about-tag {
+  color: #25a18e;
+}
+
+#experience-tag {
+  color: #25a18e;
+  margin: 10px;
+}
+
+#education-tag {
+  color: #25a18e;
+}
+
+#skills-tag {
+  color: #25a18e;
+  margin: 10px;
+}
+
+#about-tag:hover {
+  color: #004e64;
+  font-size: 20px;
+  padding: 10px;
+  transition: 1s;
+}
+
+#experience-tag:hover {
+  color: #004e64;
+  font-size: 20px;
+  padding: 10px;
+  transition: 1s;
+}
+
+#education-tag:hover {
+  color: #004e64;
+  font-size: 20px;
+  padding: 10px;
+  transition: 1s;
+}
+
+#skills-tag:hover {
+  color: #004e64;
+  font-size: 20px;
+  padding: 10px;
+  transition: 1s;
+}
+
+.about-content::first-letter {
+  font-size: 30px;
+}
+
+#main-title::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#intro::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#about-tag::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#experience-tag::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#education-tag::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#skills-tag::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+h2::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+.about-content::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+.title::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+.date::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+p1::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+p::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+div::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#portfolio-link {
+  color: #25a18e;
+}
+
+#linkedin-link {
+  color: #25a18e;
+  margin: 10px;
+}
+
+#resume-download {
+  color: #25a18e;
+}
+
+#portfolio-link::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#linkedin-link::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+#resume-download::selection {
+  background: #00a5cf;
+  color: white;
+}
+
+/* Styles for Desktop */
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 30px;
+  }
+
+  #main-title {
+    font-size: 4em;
+  }
+}
+
+/* Styles for Tablet */
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #main-title {
+    font-size: 4em;
+  }
+}
+
+/* Styles for Mobile */
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #main-title {
+    font-size: 3em;
+  }
+
+  #intro {
+    margin: 10px;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #foot-1 {
+    margin-bottom: 10px;
+  }
+
+  #foot-3 {
+    margin-bottom: 10px;
+  }
+}

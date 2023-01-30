@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Everything in the head tag acts like metadata -->
+  <head>
+    <title>Maddy's Website!</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- The title is what shows up in our browser -->
+  <link rel="stylesheet" href="/responsive.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <!-- Everything in the body tag is what shows  up on screen -->
+    <header>
+      <h1 id="main-title">Maddy Chiu</h1>
+      <div class="container">
+        <h2 id="intro">Maddy Chiu - UX Designer</h2>
+        <img
+          src="https://media.licdn.com/dms/image/D5635AQE2OS_tm_TbSg/profile-framedphoto-shrink_400_400/0/1655317044003?e=1675029600&v=beta&t=_7O2OXDT934ejE4aWKvfLBZ4ctZNwBFfeaJ_3Gp_EUI"
+        />
+      </div>
+
+      <nav class="nav-bar">
+        <!-- an a tag links to its href -->
+        <a id="about-tag" href="#about">About Me</a>
+        <a id="experience-tag" href="#experience">Experience</a>
+        <a id="education-tag" href="#education">Education</a>
+        <a id="skills-tag" href="#skills">Skills</a>
+      </nav>
+    </header>
+
+    <main id="body-content" class="body">
+      <!-- The div is going to be considered a parent element for the h2 and the p elements -->
+      <section id="about">
+        <!-- The h2 element is a child element of the div -->
+        <h2>About Me</h2>
+        <!-- The h2 element is a sibling element of the p -->
+        <p class="about-content">
+          Hi, I'm Maddy and I'm a UX Designer based in the GTA. I love
+          exercising my creativity thinking of ways to improve products for
+          users and businesses alike.
+        </p>
+      </section>
+
+      <body class="body">
+        <h2>Experience</h2>
+        <section class="title-date">
+          <h3 class="title">UX Designer</h3>
+          <h4 class="date" id="date-1">2021-2022</h4>
+        </section>
+      </body>
+      <p1 class="body-body">Experience here.</p1>
+
+      <body class="body">
+        <h2 class="content-title">Education</h2>
+        <section class="title-date" id="education-container">
+          <h3 class="title">Human Ecology - University of Western Ontario</h3>
+          <h4 class="date" id="date-2">2014-2018</h4>
+        </section>
+      </body>
+      <p1 class="body-body"> Education here.</p1>
+
+      <aside class="body">
+        <h2 class="content-title">Skills</h2>
+        <section class="skills">
+          <p>Creative</p>
+          <meter id="meter-1" class="meter" min="0" max="10" value="8"></meter>
+          <p>80%</p>
+        </section>
+        <section class="skills">
+          <p>Problem Solving</p>
+          <meter id="meter-2" class="meter" min="0" max="10" value="8"></meter>
+          <p>80%</p>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="foot">
+      <div id="foot-1" class="footer">Copyright. Maddy Chiu 2023</div>
+      <div id="foot-2" class="footer">
+        <a id="portfolio-link" href="https://www.maddychiu.com/" target="_blank"
+          >Portfolio</a
+        >
+        <a
+          id="linkedin-link"
+          href="https://www.linkedin.com/in/madeline-chiu/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          id="resume-download"
+          href="https://cdn.glitch.global/3f136d26-0e17-4d06-8977-83188d5074a5/Updated%20Resume%20V.1.png?v=1673572532023"
+          download
+          >Download Resume</a
+        >
+      </div>
+      <div id="foot-3" class="footer">Maddy Chiu - UX Designer</div>
+    </footer>
+  </body>
+</html>
